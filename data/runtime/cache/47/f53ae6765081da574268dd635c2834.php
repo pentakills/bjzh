@@ -1,0 +1,5 @@
+<?php
+//000000000000
+ exit();?>
+a:1:{i:5;a:29:{s:2:"id";i:5;s:11:"channeltype";i:6;s:15:"current_channel";i:6;s:9:"parent_id";i:0;s:8:"typename";s:12:"联系我们";s:7:"dirname";s:11:"lianxiwomen";s:7:"dirpath";s:17:"/html/lianxiwomen";s:12:"englist_name";s:0:"";s:5:"grade";i:0;s:8:"typelink";s:0:"";s:6:"litpic";s:0:"";s:8:"templist";s:16:"lists_single.htm";s:8:"tempview";s:0:"";s:9:"seo_title";s:0:"";s:12:"seo_keywords";s:0:"";s:15:"seo_description";s:209:"为了能实现“提供百分之百满意的客户服务”的诺言，我们配备了专业的管理人员，在全国更有
+队伍庞大的技术人员和维修人员，为用户提供完善的售后服务";s:10:"sort_order";i:100;s:9:"is_hidden";i:0;s:7:"is_part";i:0;s:8:"admin_id";i:1;s:6:"is_del";i:0;s:10:"del_method";i:0;s:6:"status";i:1;s:4:"lang";s:2:"cn";s:8:"add_time";i:1550027520;s:11:"update_time";i:1550042310;s:6:"banner";s:61:"/uploads/allimg/20190213/c5fb44ebc22e82902b3cc6d464f7c569.jpg";s:6:"typeid";i:5;s:7:"typeurl";s:30:"/?m=home&c=Lists&a=index&tid=5";}}

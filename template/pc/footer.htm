@@ -1,0 +1,104 @@
+<!--<div class="w-container w-footer">
+  <div class="w-footer-section " >
+    <div class="w-footer-in" >
+      <div class="foot-mask" ></div>
+      <div class="w-foot-content">
+        <div class="li-div">
+          <div class="w-text"  style="">
+            <div align="center">{eyou:global name='web_copyright' /} </br>
+              {eyou:global name='web_recordnum' /}</div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>-->
+  <!--联系我们-->
+  <div class="w-container w-main">
+   <!--   <div class="w-foot-content" style="background: #ccc;">
+        <div class="li-div">
+          <div class="w-text"  style="">
+        <div align="center"><span>友情链接： </span> 
+          {eyou:flink titlelen='45' type='text' row='24'}<a href="{$field.url}" {$field.target}>{$field.title} </a>{/eyou:flink} 
+        </div>
+        </div>
+        </div>
+        </div> -->
+    <div class="w-section pdTop-default pdBottom-default" style="background:#b1030a;;"> {eyou:channelartlist typeid='5'}
+      <div class="row" >
+        <div class="row-mask" ></div>
+        <div class="wrap-content-in  pdTop-large pdBottom-large">
+          <!--<div class="li-div">
+            <div class="not-animated w-text" data-animate="" style="">
+              <div style="text-align:center; color:#fff;">
+                <p style="font-size:130%;">{eyou:field name='typename' /}</p>
+                <p style="line-height:1.8;">{eyou:field name='seo_description' /}</p>
+              </div>
+            </div>
+          </div>-->
+          <!--<div class="li-div">
+            <div class="w-space space-b noChoose"  style="height:70px;">
+              <div class="stretch-b"></div>
+            </div>
+          </div>-->
+          <div class="li-div col-li-div">
+            <div class="col-table">
+              <table class="div-table div-table-first" width="100%" cellspacing="0" cellpadding="0" border="0">
+                <tbody>
+                  <tr>
+                    
+                    <td class="td-w" width="89.466122014735774%"><div class="div-padding">
+                        <div class="li-div">
+                          <div class="not-animated w-text" data-animate="" style="">
+                            <div style="color:#fff;">
+                              <h3 style="font-size:110%;margin:0px 0px 10px 0px;">{eyou:global name='web_name' /}</h3> <!--margin:30px 0 40px; --> 
+                              <p style="line-height:1.5; font-size:90%;">联系人：{eyou:global name='web_attr_1' /} &nbsp;&nbsp;手机：{eyou:global name='web_attr_2' /}<br/>
+                                邮编：{eyou:global name='web_attr_11' /}&nbsp;&nbsp;地址：{eyou:global name='web_attr_4' /}<br/>
+                                热线电话：{eyou:global name='web_attr_5' /}<br/>
+                            {$global.web_copyright|htmlspecialchars_decode}--SEO技术支持：<a  href="http://www.0917bjms.com/" style="color: #fff;">麦思科技</a> &nbsp;&nbsp;
+			{eyou:global name='web_recordnum' /}  </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div></td>
+                      <td class="td-w" width="10.5040650406504%"><div class="div-padding">
+                        <div class="li-div">
+                          <div class="not-animated w-map" data-animate="" style="">
+                            <div class="map">
+                            <img src="{eyou:global name='web_attr_6' /}" width="100%"  height=" 100px">
+                            </div>
+                          </div>
+                        </div>
+                      </div></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/eyou:channelartlist} </div>
+  </div>
+  
+  
+  <div class="w-service-fixed">
+    <div class="service-item bg_s_default color_s_default aHoverbg_deepen aHovercolor_deepen service-item-top"> <i class="fa fa-caret-up"></i>
+      <div class="top" onclick="$('body,html').animate({scrollTop: 0}, 'normal');">TOP</div>
+    </div>
+    <script type="text/javascript">
+        $(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 20) {
+                    $('.w-service-fixed .service-item-top').show();
+                } else {
+                    $('.w-service-fixed .service-item-top').hide();
+                }
+            });
+        });
+    </script> 
+  </div>
+</div>
+{eyou:global name='web_thirdcode_pc' /} 
+<!-- 应用插件标签 start --> 
+{eyou:weapp type='default' /} 
+<!-- 应用插件标签 end -->
